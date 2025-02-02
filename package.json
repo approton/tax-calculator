@@ -1,0 +1,33 @@
+{
+  "name": "tax-calculator",
+  "version": "1.0.0",
+  "description": "Indian Tax Calculator",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist .parcel-cache",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "@radix-ui/react-slider": "^1.1.2",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.263.1",
+    "radix-ui": "^1.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "@babel/preset-react": "^7.22.5",
+    "@parcel/transformer-css": "^2.13.3",
+    "autoprefixer": "^10.4.15",
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.29",
+    "prettier": "^2.8.8",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  }
+}
